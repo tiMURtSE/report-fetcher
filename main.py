@@ -35,7 +35,7 @@ class Main:
         # Этап №3
         queries = []
         start_pos = current_index + 1 if current_index else current_index
-        print(f"Начальные индекс запроса: {start_pos}")
+        print(f"Начальный индекс запроса: {start_pos}")
     
         for variation in all_variations[start_pos:]:
             query = Query(title=variation, stop_words=stop_words)
